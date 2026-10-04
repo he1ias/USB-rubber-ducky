@@ -1,8 +1,8 @@
 import time
 from pynput import keyboard
 
-LOG_FILE = "log.txt"
-DELAY = 0.003
+LOG_FILE = "./log.txt"
+DELAY = 0.00005
 
 controller = keyboard.Controller()
 
@@ -11,8 +11,8 @@ def parse(token):
         return getattr(keyboard.Key, token[1:-1].lower())
     return token
 
-print("Starting in 2 seconds... click into the target window.")
-time.sleep(2)
+print("Starting in 1 second... click into the target window.")
+time.sleep(1)
 
 with open(LOG_FILE) as file:
     for line in file:
