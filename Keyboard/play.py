@@ -1,8 +1,8 @@
 import time
 from pynput import keyboard
 
-LOG_FILE = "./log.txt"
-DELAY = 0.00005
+LOG_FILE = "mac-reverse-terminal.txt"
+DELAY = 0.1
 
 controller = keyboard.Controller()
 

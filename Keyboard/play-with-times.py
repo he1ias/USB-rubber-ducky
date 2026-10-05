@@ -1,7 +1,7 @@
 import time
 from pynput import keyboard
 
-LOG_FILE = "./snake-win.txt"
+LOG_FILE = "./snake-win-small-fast.txt"
 DELAY = 0.00005
 
 start = time.perf_counter()

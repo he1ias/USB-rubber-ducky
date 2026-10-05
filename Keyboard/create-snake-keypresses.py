@@ -1,5 +1,5 @@
 # we're assuming grid is completable here
-path = "snake-grid-small.txt"
+path = "snake-grid-large.txt"
 
 with open(path) as file:
     lines = file.read().split("\n")
@@ -11,7 +11,7 @@ speed_ms = float(lines[1])
 
 grid = [list(line) for line in lines[2:]]
 
-assert grid[x][y] != "."
+assert grid[y][x] != "."
 
 directions = {
     "r": (1, 0),
@@ -27,7 +27,7 @@ while True:
     if (x, y) in seen:
         break
 
-    cell = grid[x][y]
+    cell = grid[y][x]
     if cell != ".":
         direction = directions[cell]
         moves.append((
@@ -48,7 +48,7 @@ names = {
     (0, -1): "DOWN"
 }
 
-output = "snake-win.txt"
+output = "snake-win-small-fast.txt"
 
 press_delay = 10
 
