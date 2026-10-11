@@ -1,7 +1,7 @@
 # USB-rubber-ducky
 A USB rubber ducky made for Hack Club's HalfLife event.
 
-!(The finalised PCB)['./PCB.jpeg']
+![The finalised PCB]('./PCB.jpeg')
 
 ### What is a Rubber Ducky?
 
