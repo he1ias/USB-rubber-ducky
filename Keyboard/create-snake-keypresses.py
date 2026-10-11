@@ -1,5 +1,5 @@
 # we're assuming grid is completable here
-path = "snake-grid-large.txt"
+path = "snake-grid-small-fast.txt"
 
 with open(path) as file:
     lines = file.read().split("\n")
