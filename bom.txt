@@ -1,0 +1,17 @@
+1x ESP32-S3-Zero Mini Developement Board (4MB Flash, with Pre-soldered Headers) ($10.60): 
+		https://littlebirdelectronics.com.au/products/esp32-s3-mini-development-board-based-on-esp32-s3fh4r2-dual-core-processor-240mhz-running-frequency-2-4ghz-wi-fi-bluetooth-5?collection=esp32-development-boards&variant=WS-25517
+
+2x Female 10-pin headers (2 x $1.60 = $3.20):
+	https://littlebirdelectronics.com.au/products/header-10-pin-female-pth-0-1
+
+1x Lorikeet ($3.50):
+	https://littlebirdelectronics.com.au/products/little-bird-lorikeet-ws2812b-rainbow-board-with-right-angle-header
+
+2x Button (2 * $1.65 = $3.30):
+	https://littlebirdelectronics.com.au/products/tactile-button-smd-12mm
+
+Resistors ($0.70):
+	https://littlebirdelectronics.com.au/products/470-ohm-0-5-watt-metal-film-resistors-pack-of-8
+
+1x USB adapter ($2.40):
+	https://littlebirdelectronics.com.au/products/otg-converter-usb-3-0-convert-to-usb-c
