@@ -1,11 +1,11 @@
 # USB-rubber-ducky
 A USB rubber ducky made for Hack Club's HalfLife event.
 
-![The finalised PCB]('https://raw.githubusercontent.com/he1ias/USB-rubber-ducky/refs/heads/main/PCB.jpeg')
+![The finalised PCB](https://raw.githubusercontent.com/he1ias/USB-rubber-ducky/refs/heads/main/PCB.jpeg)
 
 ### What is a Rubber Ducky?
 
-A Rubber Ducky is a toy hacking tool that can emulate USB keyboards, helping show the limits of what physical access to a device can achieve.
+A Rubber Ducky is a toy hacking tool that can emulate USB keyboards, helping show the limits of what physical access to a device can achieve. 
 
 ### What can it do?
 
