@@ -25,4 +25,4 @@ I first drew the schematic:
 
 ...and then routed my PCB!
 
-![The finalised routing](https://raw.githubusercontent.com/he1ias/USB-rubber-ducky/refs/heads/main/circuit.jpg)
+![The finalised routing](https://raw.githubusercontent.com/he1ias/USB-rubber-ducky/refs/heads/main/circuit.jpeg)
