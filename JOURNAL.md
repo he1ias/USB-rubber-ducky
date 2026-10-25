@@ -43,7 +43,7 @@ After running this 'server' code `nc -l 4444`, I recorded myself running the pay
 
 The following shows an example of recorded content, after opening Mac's Spotlight search and typing 'terminal':
 
-![Screenshot 2026-10-05 at 19.25.32](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/55021cd91b16c4d016fe56fb81feba46b97c85dd3fcaee848b725d5d443db088.png)
+![Screenshot 2026-10-05 at 19.25.32](https://halflife.hackclub-assets.com/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/55021cd91b16c4d016fe56fb81feba46b97c85dd3fcaee848b725d5d443db088.png)
 
 ### Snake
 
@@ -55,15 +55,15 @@ While this method had some success, I found that slight imperfections in timing 
 
 The core script takes a grid similar to the following, and produces the correct keypress loop that beats the game without any human interaction required.
 
-![Screenshot 2026-10-05 at 19.31.28](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/aba88e7a3da6a9f9a348cd633a78ece29aa0b82c9649e23638e85adefc4e94d7.png)
+![Screenshot 2026-10-05 at 19.31.28](https://halflife.hackclub-assets.com/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/aba88e7a3da6a9f9a348cd633a78ece29aa0b82c9649e23638e85adefc4e94d7.png)
 
 My code playing snake:
 
-![IMG_8328 Medium](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/850a8dbc40986d96fae08e81b98b61ebf61582a938964bed8f824ebfe1fb9857.jpeg)
+![IMG_8328 Medium](https://halflife.hackclub-assets.com/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/850a8dbc40986d96fae08e81b98b61ebf61582a938964bed8f824ebfe1fb9857.jpeg)
 
 And beating snake!
 
-![IMG_8331 Medium](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/ce44813016c4fc0165ad6689962d6c47c376ba8d5842b1e77de5accf2fc7ec16.jpeg)
+![IMG_8331 Medium](https://halflife.hackclub-assets.com/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/ce44813016c4fc0165ad6689962d6c47c376ba8d5842b1e77de5accf2fc7ec16.jpeg)
 
 ### 2026-10-06 – ## W1: USB Rubber Ducky
 
@@ -76,7 +76,7 @@ This session was spent finalising the design of the Rubber Ducky, so I would be 
 
 A began by sketching out the Rubber Ducky on pen and paper:
 
-![rough-sketch](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/33a2741cb1ca7b894f25a3c5c07c867a2a1f11f85d955ad6cdd1ae7cb3f8ed6c.jpeg)
+![rough-sketch](https://halflife.hackclub-assets.com/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/33a2741cb1ca7b894f25a3c5c07c867a2a1f11f85d955ad6cdd1ae7cb3f8ed6c.jpeg)
 
 At this point I also realised that I wanted to put the PCB in a 3D printed shell of an actual rubber ducky (I will do this last)! More importantly, this sketch shows how the Ducky will look and feel: a button to execute / stop payloads, and a selector of payloads.
 
@@ -95,11 +95,11 @@ With my input method set, I went to write some firmware for the Rubber Ducky, pa
 
 Testing the Lorikeet:
 
-![lorikeet-test](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/b9003eefab194f182c7462d3d2551250baf33ea2f2d9b957516f1f561af3f087.jpeg)
+![lorikeet-test](https://halflife.hackclub-assets.com/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/b9003eefab194f182c7462d3d2551250baf33ea2f2d9b957516f1f561af3f087.jpeg)
 
 Testing user input:
 
-![user-input-test](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/8ff14ff726044cf52e90b1f87abcea425abbcf370247265dcd91d08f551569ce.jpeg)
+![user-input-test](https://halflife.hackclub-assets.com/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/8ff14ff726044cf52e90b1f87abcea425abbcf370247265dcd91d08f551569ce.jpeg)
 
 I also wrote some test code for the web interface: [web-interface-test.py](https://github.com/he1ias/USB-rubber-ducky/blob/main/Firmware/web-interface-test.py)
 
@@ -120,7 +120,7 @@ https://littlebirdelectronics.com.au/products/esp32-s3-mini-development-board-ba
 
 *Note: the ESP32-S3 must come with pre-soldered headers to allow connection to the PCB via 10-pin female headers purchased below*
 
-![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/2ac9651315bc0166ef7944faf4d0935ebac879c350bab42b9277d6ad6929a0ae.png)
+![image](https://halflife.hackclub-assets.com/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/2ac9651315bc0166ef7944faf4d0935ebac879c350bab42b9277d6ad6929a0ae.png)
 
 **	2x Female 10-pin headers (2 x $1.60 = $3.20): **
 	https://littlebirdelectronics.com.au/products/header-10-pin-female-pth-0-1
@@ -138,7 +138,7 @@ https://littlebirdelectronics.com.au/products/tactile-button-smd-12mm
 	**1x USB adapter ($2.40):**
 		https://littlebirdelectronics.com.au/products/otg-converter-usb-3-0-convert-to-usb-c
 
-![Prices](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/cc12713d97a1570bc36c5d8723e6736e0e5f0888f1660f4007a92db33df82199.png)
+![Prices](https://halflife.hackclub-assets.com/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/cc12713d97a1570bc36c5d8723e6736e0e5f0888f1660f4007a92db33df82199.png)
 
 Total price (inc. shipping): $33.24 AUD = ** $23.16 USD **
 
@@ -157,21 +157,21 @@ Putting the schematic together was relatively straightforward - I only had a few
 
 Searching online, I managed to find the footprint for the ESP32-S3-Zero on SnapEDA:
 
-![IMG_8335 Large](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/a93414ebb02a738073d02aeafc5d8b7f2047b582f933938fd3554f346eb5aafe.jpg)
+![IMG_8335 Large](https://halflife.hackclub-assets.com/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/a93414ebb02a738073d02aeafc5d8b7f2047b582f933938fd3554f346eb5aafe.jpg)
 
 However, I still didn't have the footprints for both the 12mm SMD buttons and the Lorikeet (a display of 5 LEDs commonly found in Australia). Searching online, I was unable to find any resources that could help. This meant I had to improvise: it turns out, `.kicad_mod` files are written in plaintext, and from a bit of online digging, including the component datasheets and other knowledge (eg. header pins are located 2.54mm apart) I was able to write the code necessary for both the buttons and the Lorikeet myself.
 
 For example, the footprint for the Lorikeet looked like the following:
 
-![IMG_8336 Large](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/e8a083af814ca60454abb3659ee0db410e41bb4448351608a9ad9b176113937b.jpg)
+![IMG_8336 Large](https://halflife.hackclub-assets.com/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/e8a083af814ca60454abb3659ee0db410e41bb4448351608a9ad9b176113937b.jpg)
 
 This allowed me to finish wiring up the schematic:
 
-![IMG_8339 Large](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/ddb3b261f6fc296ff0a6c1299b6a0c0f7d4ef0d1d4fb45f9ecfbc659dc6fb4f2.jpg)
+![IMG_8339 Large](https://halflife.hackclub-assets.com/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/ddb3b261f6fc296ff0a6c1299b6a0c0f7d4ef0d1d4fb45f9ecfbc659dc6fb4f2.jpg)
 
 My mods folder ending up looking like the following:
 
-![IMG_8344 Large](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/04779536c57b38093bf914b1a8d75898fe00192ef0d23ad751f40ed9dc5d5fbd.jpg)
+![IMG_8344 Large](https://halflife.hackclub-assets.com/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/04779536c57b38093bf914b1a8d75898fe00192ef0d23ad751f40ed9dc5d5fbd.jpg)
 
 ### The PCB
 
@@ -179,13 +179,13 @@ Once all the footprints were imported, designing the PCB was a straightforward p
 
 This gave me the following:
 
-![IMG_8342 Large](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/b4e8fc0f7c512f173ba301102b36f4bea94b6cc15e6cceffcd327b5ca7c30cce.jpg)
+![IMG_8342 Large](https://halflife.hackclub-assets.com/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/b4e8fc0f7c512f173ba301102b36f4bea94b6cc15e6cceffcd327b5ca7c30cce.jpg)
 
 One final hiccup was that the headers pins I wanted to buy were 10 pins long, and wouldn't fit in the 9-pin hole created by the ESP32's footprint.
 
 This meant I had to go manually edit the `.kicad_mod` file to add the extra two pins as can be seen here:
 
-![IMG_8343 Large copy](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/e440187e66a53482a0f3fd55e819385079679da2c39d730e353c06a419da1fcf.jpg)
+![IMG_8343 Large copy](https://halflife.hackclub-assets.com/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/e440187e66a53482a0f3fd55e819385079679da2c39d730e353c06a419da1fcf.jpg)
 
 The Ducky is almost complete! All that's left to do is route the PCB, finalise the firmware, and design the 3D printed Ducky shell.
 
@@ -204,17 +204,17 @@ I found routing the connections to be relatively straightforward, as the layout 
 
 My routed board looked like the following:
 
-![IMG_8345 2 Large](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/05f7259718993adf04e0aa72aeadfebca7c502b80019df027264ab453e839395.jpg)
+![IMG_8345 2 Large](https://halflife.hackclub-assets.com/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/05f7259718993adf04e0aa72aeadfebca7c502b80019df027264ab453e839395.jpg)
 
 ### 3D-printed shell
 
 The 3D modelling was also quite simple, as I was able to find a 3D Rubber Ducky model online already which I could add space for my PCB inside. I opted into making a hole on the bottom side of the model, with the USB connector poking out for easy access. The model ended up like the following:
 
-![Screenshot 2026-10-10 at 09.16.41](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/4fe54bf1afa16400d5009cd057b9f51537d410a90bd1b54d0222c39b7ef64bdf.png)
+![Screenshot 2026-10-10 at 09.16.41](https://halflife.hackclub-assets.com/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/4fe54bf1afa16400d5009cd057b9f51537d410a90bd1b54d0222c39b7ef64bdf.png)
 
 I then added screw mounting holes to the PCB so I would be able to secure it to the 3D model.
 
-![IMG_8361 2 Large](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/1f5d119ff02ccb4dd4969b84bc6a7bc7837c32229e95a6896729d06eea89d621.jpg)
+![IMG_8361 2 Large](https://halflife.hackclub-assets.com/sessions/3Z57nO3DOx0C7tgaKyZzjKBiZIWIGXGt/1f5d119ff02ccb4dd4969b84bc6a7bc7837c32229e95a6896729d06eea89d621.jpg)
 
 I spent the remainder of this session checking over the PCB (eg. DRC, logic, fixing layout issues etc.) and 3D model (checking measurements) to make sure everything fit together nicely. I also checked again over the footprints I had programmed to ensure that the components I was buying 100% fit the spaces I had set out for them.
 
